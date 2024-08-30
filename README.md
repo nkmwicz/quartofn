@@ -29,6 +29,10 @@ Users appreciate release notes as you update your extension.
 
 First Release
 
+### 0.0.2
+
+Update package.json to add activateOnLanguage
+
 ## To Download
 
 Right now the theme is only available as a `.vsix` file. It is available on GitHub.

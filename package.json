@@ -2,7 +2,7 @@
   "name": "quartofn",
   "displayName": "QuartoFootnoteHighlighter",
   "description": "This plugin provides highlighting for inline footnotes in Quarto file (^[I am a footnote]).",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "nkmwicz",
   "pricing": "Free",
   "repository": {
@@ -17,6 +17,10 @@
   ],
   "extensionDependencies": [
     "quarto.quarto"
+  ],
+  "activationEvents": [
+    "onLanguage:quarto",
+    "onLanguage:markdown"
   ],
   "contributes": {
     "languages": [
