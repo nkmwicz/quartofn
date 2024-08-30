@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "nkmwicz",
   "pricing": "Free",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkmwicz/quartofn.git"
+  },
   "engines": {
     "vscode": "^1.92.0"
   },
