@@ -48,13 +48,6 @@
         "scopeName": "source.markdown",
         "path": "./syntaxes/quarto.tmLanguage.json"
       }
-    ],
-    "themes": [
-      {
-        "label": "Quarto Color Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/quarto-color-theme.json"
-      }
     ]
   }
 }
