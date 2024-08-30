@@ -25,4 +25,10 @@ You can change the color of these tokens in your settings.json file by adding th
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
+
+First Release
+
+## To Download
+
+Right now the theme is only available as a `.vsix` file. It is available on GitHub.
