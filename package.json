@@ -18,10 +18,6 @@
   "extensionDependencies": [
     "quarto.quarto"
   ],
-  "activationEvents": [
-    "onLanguage:quarto",
-    "onLanguage:markdown"
-  ],
   "contributes": {
     "languages": [
       {
