@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Quarto",
+  "patterns": [
+    {
+      "include": "#inlineFootnotes"
+    }
+  ],
+  "repository": {
+    "inlineFootnotes": {
+      "patterns": [
+        {
+          "name": "meta.footnote.inline.quarto",
+          "match": "\\^\\[.*?\\]"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.quarto"
+}

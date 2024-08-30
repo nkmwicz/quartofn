@@ -1,0 +1,60 @@
+{
+  "name": "quartofn",
+  "displayName": "QuartoFootnoteHighlighter",
+  "description": "This plugin provides highlighting for inline footnotes in Quarto file (^[I am a footnote]).",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "extensionDependencies": [
+    "quarto.quarto"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "quarto",
+        "aliases": [
+          "Quarto",
+          "quarto"
+        ],
+        "extensions": [
+          ".qmd"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "markdown",
+        "aliases": [
+          "Markdown",
+          "markdown"
+        ],
+        "extensions": [
+          ".md"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "quarto",
+        "scopeName": "source.quarto",
+        "path": "./syntaxes/quarto.tmLanguage.json"
+      },
+      {
+        "language": "markdown",
+        "scopeName": "source.markdown",
+        "path": "./syntaxes/quarto.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Quarto Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quarto-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Quarto Color Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#D4D4D4"
+  },
+  "tokenColors": [
+    {
+      "scope": "meta.footnote.inline.quarto",
+      "settings": {
+        "foreground": "#a18a2a",
+      }
+    }
+  ]
+}
