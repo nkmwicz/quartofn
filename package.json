@@ -3,6 +3,8 @@
   "displayName": "QuartoFootnoteHighlighter",
   "description": "This plugin provides highlighting for inline footnotes in Quarto file (^[I am a footnote]).",
   "version": "0.0.1",
+  "publisher": "nkmwicz",
+  "pricing": "Free",
   "engines": {
     "vscode": "^1.92.0"
   },
