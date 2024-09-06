@@ -39,8 +39,8 @@
     "grammars": [
       {
         "language": "quarto",
-        "scopeName": "source.quarto",
-        "path": "./syntaxes/quarto.tmLanguage.json"
+        "scopeName": "text.html.quarto.quartofn",
+        "path": "./syntaxes/quartofn.tmLanguage.json"
       }
     ]
   }

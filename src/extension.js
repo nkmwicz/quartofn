@@ -30,7 +30,9 @@ function activate(context) {
   context.subscriptions.push(disposable);
 
   /// Log grammar loading
-  const grammarPath = context.asAbsolutePath("syntaxes/quarto.tmLanguage.json");
+  const grammarPath = context.asAbsolutePath(
+    "syntaxes/quartofn.tmLanguage.json"
+  );
   outputChannel.appendLine(`Grammar path: ${grammarPath}`);
   const languageConfigPath = context.asAbsolutePath(
     "language-configuration.json"
