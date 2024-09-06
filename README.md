@@ -4,7 +4,7 @@ This is a simple plugin that provides basic syntax recognition for inline footno
 
 ## Features
 
-It will tokenize any string that starts with `[^` and ends with `]` as a meta.footnote.inline.quarto token.
+It will tokenize any string that starts with `^[` and ends with `]` as a meta.footnote.inline.quarto token.
 
 You can change the color of these tokens in your settings.json file by adding the following:
 
@@ -32,6 +32,10 @@ First Release
 ### 0.0.2
 
 Update package.json to add activateOnLanguage
+
+### 0.0.3
+
+Remove markdown support (interacts poorly with markdown syntax highlighting).
 
 ## To Download
 
