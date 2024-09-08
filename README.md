@@ -37,6 +37,6 @@ Update package.json to add activateOnLanguage
 
 Remove markdown support (interacts poorly with markdown syntax highlighting).
 
-## To Download
+### 0.0.4
 
-Right now the theme is only available as a `.vsix` file. It is available on GitHub.
+It is now operational. The extension will now tokenize any string that starts with `^[` and ends with `]` as a meta.footnote.inline.quarto token. Many thanks to RedCMD for their help in stack Overflow for getting this operational.
