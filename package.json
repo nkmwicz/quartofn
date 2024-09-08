@@ -19,26 +19,15 @@
     "quarto.quarto"
   ],
   "activationEvents": [
-    "onLanguage:quarto"
+    "onLanguage: quarto"
   ],
   "main": "./src/extension.js",
   "contributes": {
-    "languages": [
-      {
-        "id": "quarto",
-        "aliases": [
-          "Quarto",
-          "quarto"
-        ],
-        "extensions": [
-          ".qmd"
-        ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
     "grammars": [
       {
-        "language": "quarto",
+        "injectTo": [
+          "text.html.quarto"
+        ],
         "scopeName": "text.html.quarto.quartofn",
         "path": "./syntaxes/quartofn.tmLanguage.json"
       }
